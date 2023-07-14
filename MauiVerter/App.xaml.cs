@@ -8,7 +8,7 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		//MainPage = new MenuView();
-		MainPage = new ConverterView();
+		MainPage = new MenuView();
+		//MainPage = new ConverterView();
 	}
 }
