@@ -49,6 +49,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="MVVM\Views\ConverterView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="MVVM\Views\MenuView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
