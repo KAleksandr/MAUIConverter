@@ -25,7 +25,8 @@
                     HorizontalTextAlignment="Center"
                     TextColor="{StaticResource TextColor}" 
                     ItemsSource="{Binding FromMeasures}"
-                    SelectedItem="{Binding CurrentFromMeasure}"/>        
+                    SelectedItem="{Binding CurrentFromMeasure}"
+                    SelectedIndexChanged="Picker_SelectedIndexChanged"/>        
             </VerticalStackLayout>
         </Grid>
         <Grid Grid.Row="1" BackgroundColor="{x:StaticResource AppColor3}">
@@ -41,7 +42,8 @@
                     HorizontalTextAlignment="Center"
                     TextColor="{StaticResource TextColor}"
                     ItemsSource="{Binding ToMeasures}"
-                     SelectedItem="{Binding CurrentToMeasure}"/>
+                     SelectedItem="{Binding CurrentToMeasure}"
+                    SelectedIndexChanged="Picker_SelectedIndexChanged"/>
             </VerticalStackLayout>
         </Grid>
     </Grid>
