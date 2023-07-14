@@ -70,7 +70,7 @@
                 VerticalTextAlignment="Center"/>
         </Grid>
         <!--#endregion-->
-        <!--#region Lenght -->
+        <!--#region Length -->
         <Grid Grid.Row="1"
               Grid.Column="2"
               RowDefinitions=".7*, .3*"
@@ -89,7 +89,7 @@
             <Label 
                 Grid.Row="1"
                 HorizontalTextAlignment="Center"
-                Text="Lenght"
+                Text="Length"
                 TextColor="{StaticResource TextColor}"
                 VerticalTextAlignment="Center"/>
         </Grid>
