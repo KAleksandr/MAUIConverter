@@ -49,8 +49,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="AWSSDK.S3" Version="3.7.108" />
-	  <PackageReference Include="AWSSDK.Translate" Version="3.7.102.20" />
+	  <PackageReference Include="PropertyChanged.Fody" Version="4.1.0" />
 	  <PackageReference Include="UnitsNet" Version="5.0.0-alpha006" />
 	</ItemGroup>
 
